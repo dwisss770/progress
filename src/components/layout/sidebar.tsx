@@ -35,7 +35,7 @@ export default function Sidebar({ sidebarOpen }: SidebarProps) {
       {menuItems.map((item) => {
         const Icon = item.icon;
         const isActive = pathname === item.href;
-        const isLocked = item.title !== "Dashboard";
+        const isLocked = item.locked;
 
         return (
           <Link

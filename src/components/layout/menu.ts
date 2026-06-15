@@ -16,9 +16,9 @@ export const menuItems = [
   },
   {
     title: "Formasi",
-    href: "/for",
+    href: "/formasi",
     icon: Users,
-    locked: true,
+    locked: false,
   },
   {
     title: "MPL/EWC/M-Series",
