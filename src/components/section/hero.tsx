@@ -158,9 +158,7 @@ export default function Hero() {
             </div>
 
             <p className="text-muted-foreground mb-6 max-w-xl text-sm leading-relaxed text-justify">
-              Beberapa fitur personalisasi masih menunggu data profil Anda.
-              Lengkapi informasi yang diperlukan untuk mendapatkan pengalaman
-              NutrySmart yang optimal.
+              Pantau progres Try Out (TO) Anda secara lengkap, mulai dari hasil, perkembangan skor, hingga riwayat.
             </p>
 
             <div className="flex items-center gap-4">
