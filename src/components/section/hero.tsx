@@ -46,6 +46,16 @@ const dataTO = [
     harga: "Gratis",
     screenshot: "/images/eduvid1.png",
   },
+  {
+    id: 5,
+    platform: "JadiASN",
+    nama: "TO SKD CPNS 2026 Gratis (Part 1)",
+    tanggal: "16 Juni 2026",
+    skor: 451,
+    pgLulus: true,
+    harga: "Gratis",
+    screenshot: "/images/jadiasn1.png",
+  },
 ];
 
 const platforms = [
