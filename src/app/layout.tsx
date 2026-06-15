@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "@/style/globals.css";
 import AppShell from "./appshell";
+import Preloader from "@/components/layout/preloader";
 
 const dmSans = localFont({
   src: [
@@ -68,6 +69,8 @@ export default function RootLayout({
       className={`${dmSans.variable} h-full antialiased`}
     >
       <body className="min-h-screen">
+
+        <Preloader />
         <AppShell>{children}</AppShell>
       </body>
     </html>
